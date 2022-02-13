@@ -1,0 +1,16 @@
+<app-login *ngIf="!currentUser"></app-login>
+
+<div *ngIf="currentUser"><p>Welcome, {{currentUser.displayName}}</p>
+<!--
+  can pass currentUser as input for these components:
+
+  Workouts Calendar
+  Individual Workout
+  Measurements List / Individual Measurements...grandchild
+  PR List
+
+-->
+
+
+
+</div>
